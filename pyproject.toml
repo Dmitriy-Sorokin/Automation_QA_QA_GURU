@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "automation-qa-qa-guru"
+version = "0.1.0"
+description = ""
+authors = ["Dmitriy Sorokin <sorokin.da92@gmail.com>"]
+readme = "README.md"
+packages = [{include = "automation_qa_qa_guru"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
