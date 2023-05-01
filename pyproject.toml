@@ -8,6 +8,7 @@ packages = [{include = "automation_qa_qa_guru"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+selene = "^1.0.2"
 
 
 [build-system]
