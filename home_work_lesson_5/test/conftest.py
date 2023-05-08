@@ -1,4 +1,4 @@
-from typing import Literal, Callable
+from typing import Literal
 
 import pytest
 from selene.support.shared import browser
