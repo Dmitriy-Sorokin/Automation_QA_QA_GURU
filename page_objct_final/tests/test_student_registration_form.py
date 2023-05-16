@@ -1,9 +1,9 @@
 from selene import have, command
 from selene.support.shared import browser
-from demoqa_tests.data import User
-from demoqa_tests.model.application_manager import app
-from demoqa_tests.model.controls import dropdown
-from demoqa_tests import utils
+from page_objct_final.demoqa_tests.data import User
+from page_objct_final.demoqa_tests.model.application_manager import app
+from page_objct_final.demoqa_tests.model.controls import dropdown
+from page_objct_final.demoqa_tests import utils
 
 '''
 # Just an example of Fluent PageObject application:

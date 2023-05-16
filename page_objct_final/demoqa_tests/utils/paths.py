@@ -1,8 +1,8 @@
 def resource(relative_path):
-    import demoqa_tests
+    import page_objct_final.demoqa_tests
     from pathlib import Path
     return (
-        Path(demoqa_tests.__file__)
+        Path(page_objct_final.demoqa_tests.__file__)
         .parent
         .parent
         .joinpath('resources/')

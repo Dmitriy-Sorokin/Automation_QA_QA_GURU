@@ -1,8 +1,8 @@
 from selene import command, have
 from selene.support.shared import browser
 
-from demoqa_tests.data import User
-from demoqa_tests.model.controls import TagsInput
+from page_objct_final.demoqa_tests.data import User
+from page_objct_final.demoqa_tests.model.controls import TagsInput
 
 
 class StudentRegistrationForm:
