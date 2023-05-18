@@ -10,6 +10,11 @@ packages = [{include = "automation_qa_qa_guru"}]
 python = "^3.10"
 selene = "^2.0.0rc2"
 pytest = "^7.3.1"
+<<<<<<< HEAD
+pytest-playwright = "^0.3.3"
+=======
+allure-pytest = "^2.13.2"
+>>>>>>> 294d2d636cd5c7765b1c7a156845508c1e133802
 
 
 [build-system]

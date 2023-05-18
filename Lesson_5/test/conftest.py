@@ -15,10 +15,7 @@ def browser_management():
     browser.config.timeout = 3.0
     # commented after we started to cover more than one web app in tests
     # browser.config.base_url = 'https://www.google.com'
-    print("privet")
     yield
-
-    print("poka")
     browser.quit()
 
 

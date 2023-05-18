@@ -13,8 +13,10 @@
 def open_browser():
     pass
 
+
 def prn(func):
     return func.__name__
+
 
 a = prn(open_browser)
 
